@@ -1,4 +1,3 @@
-
 export interface Todo {
     id: string;
     desc: string;
@@ -7,7 +6,7 @@ export interface Todo {
 
 export interface TodoState {
     todoCount: number;
-    todos: Todo[],
+    todos: Todo[];
     completed: number;
     pending: number;
 }
